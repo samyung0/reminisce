@@ -1,0 +1,16 @@
+[project]
+name = "reminisce-backend"
+version = "0.1.0"
+description = "Reminisce AI Study App - Backend"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "python-multipart",
+    "python-dotenv",
+    "llama-index-core",
+    "llama-index-llms-gemini",
+    "llama-index-embeddings-gemini",
+    "llama-cloud",
+]
