@@ -1,0 +1,1327 @@
+{
+    "schema_name": "DoclingDocument",
+    "version": "1.10.0",
+    "name": "test",
+    "origin": {
+        "mimetype": "application/pdf",
+        "binary_hash": 5886113178356141063,
+        "filename": "test.pdf",
+        "uri": null
+    },
+    "furniture": {
+        "self_ref": "#/furniture",
+        "parent": null,
+        "children": [],
+        "content_layer": "furniture",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "body": {
+        "self_ref": "#/body",
+        "parent": null,
+        "children": [
+            {
+                "cref": "#/texts/0"
+            },
+            {
+                "cref": "#/texts/1"
+            },
+            {
+                "cref": "#/texts/2"
+            },
+            {
+                "cref": "#/texts/3"
+            },
+            {
+                "cref": "#/texts/4"
+            },
+            {
+                "cref": "#/tables/0"
+            },
+            {
+                "cref": "#/texts/6"
+            },
+            {
+                "cref": "#/groups/0"
+            },
+            {
+                "cref": "#/texts/8"
+            },
+            {
+                "cref": "#/texts/9"
+            },
+            {
+                "cref": "#/groups/1"
+            }
+        ],
+        "content_layer": "body",
+        "meta": null,
+        "name": "_root_",
+        "label": "unspecified"
+    },
+    "groups": [
+        {
+            "self_ref": "#/groups/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/7"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        },
+        {
+            "self_ref": "#/groups/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/10"
+                },
+                {
+                    "cref": "#/texts/11"
+                },
+                {
+                    "cref": "#/texts/12"
+                },
+                {
+                    "cref": "#/texts/13"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "name": "list",
+            "label": "list"
+        }
+    ],
+    "texts": [
+        {
+            "self_ref": "#/texts/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 240.12000000000003,
+                        "t": 963.8639951171874,
+                        "r": 365.16,
+                        "b": 939.652540571733,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        39
+                    ]
+                }
+            ],
+            "orig": "MEDF1011 Tutorial Membrane Excitability",
+            "text": "MEDF1011 Tutorial Membrane Excitability",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/1",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 219.48,
+                        "t": 924.9839951171874,
+                        "r": 385.8,
+                        "b": 914.6949874248797,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        29
+                    ]
+                }
+            ],
+            "orig": "30 September 2020 (Wednesday)",
+            "text": "30 September 2020 (Wednesday)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/2",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 160.08,
+                        "t": 897.2639951171875,
+                        "r": 442.08000000000004,
+                        "b": 886.852540571733,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        52
+                    ]
+                }
+            ],
+            "orig": "Equilibrium potential and resting membrane potential",
+            "text": "Equilibrium potential and resting membrane potential",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/3",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68,
+                        "t": 863.9039951171875,
+                        "r": 552.4811999999998,
+                        "b": 770.6925405717329,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        673
+                    ]
+                }
+            ],
+            "orig": "Ion movements are determined by both the electrical and chemical/concentration gradients.  When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation.  Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an electrochemical equilibrium is reached with no  net  ion  movement.    The  resulting  electrical  potential  will  stabilize  at  what  is  now  known  as  the equilibrium potential (Eion) of that particular ion.",
+            "text": "Ion movements are determined by both the electrical and chemical/concentration gradients.  When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation.  Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an electrochemical equilibrium is reached with no  net  ion  movement.    The  resulting  electrical  potential  will  stabilize  at  what  is  now  known  as  the equilibrium potential (Eion) of that particular ion.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/4",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68000000000001,
+                        "t": 755.4239951171875,
+                        "r": 552.4811999999998,
+                        "b": 689.93498742488,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        521
+                    ]
+                }
+            ],
+            "orig": "The  giant  axons  of  the  common  Atlantic  squid, Loligo  pealeii ,  played  an  important  role  in  early biophysical  studies  of  the  action  potential.    Due  to  its  large  size  (0.5-1  mm  in  diameter),  it  is  quite accessible to experimental manipulation and intracellular recording of membrane potential.  The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).",
+            "text": "The  giant  axons  of  the  common  Atlantic  squid, Loligo  pealeii ,  played  an  important  role  in  early biophysical  studies  of  the  action  potential.    Due  to  its  large  size  (0.5-1  mm  in  diameter),  it  is  quite accessible to experimental manipulation and intracellular recording of membrane potential.  The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/5",
+            "parent": {
+                "cref": "#/tables/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "caption",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68000000000012,
+                        "t": 680.4239951171877,
+                        "r": 438.2400000000002,
+                        "b": 670.13498742488,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        79
+                    ]
+                }
+            ],
+            "orig": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+            "text": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/6",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "section_header",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68,
+                        "t": 593.4239951171875,
+                        "r": 107.4,
+                        "b": 583.012540571733,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        10
+                    ]
+                }
+            ],
+            "orig": "Questions:",
+            "text": "Questions:",
+            "formatting": null,
+            "hyperlink": null,
+            "level": 1
+        },
+        {
+            "self_ref": "#/texts/7",
+            "parent": {
+                "cref": "#/groups/0"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68000000000001,
+                        "t": 566.1839951171875,
+                        "r": 542.04,
+                        "b": 542.0560185775981,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        133
+                    ]
+                }
+            ],
+            "orig": "1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+            "text": "Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": true,
+            "marker": "1."
+        },
+        {
+            "self_ref": "#/texts/8",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "formula",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 233.15999999999997,
+                        "t": 526.7224751171875,
+                        "r": 368.88,
+                        "b": 514.3088399633414,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        34
+                    ]
+                }
+            ],
+            "orig": "EX = 59/z log ([X + ]o / [X + ]i )",
+            "text": "",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/9",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "text",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 78.0,
+                        "t": 493.1224751171875,
+                        "r": 420.0,
+                        "b": 480.8949874248798,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        73
+                    ]
+                }
+            ],
+            "orig": "Calculate the equilibrium potential (Eion) for Na + and K + ions at 25\u00b0C.",
+            "text": "Calculate the equilibrium potential (Eion) for Na + and K + ions at 25\u00b0C.",
+            "formatting": null,
+            "hyperlink": null
+        },
+        {
+            "self_ref": "#/texts/10",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68,
+                        "t": 451.58399511718744,
+                        "r": 555.48,
+                        "b": 427.4949874248798,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        196
+                    ]
+                }
+            ],
+            "orig": "2. What  is  the  meaning  of  a  'driving  force'  (or  electrochemical  driving  force)  for  each  ion? Calculate the driving force for each ion if the resting membrane potential equals -60 mV.",
+            "text": "What  is  the  meaning  of  a  'driving  force'  (or  electrochemical  driving  force)  for  each  ion? Calculate the driving force for each ion if the resting membrane potential equals -60 mV.",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": true,
+            "marker": "2."
+        },
+        {
+            "self_ref": "#/texts/11",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68,
+                        "t": 419.9259551171874,
+                        "r": 402.36,
+                        "b": 407.5088399633413,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        70
+                    ]
+                }
+            ],
+            "orig": "3. Explain why the resting membrane potential is much closer to EK + .",
+            "text": "Explain why the resting membrane potential is much closer to EK + .",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": true,
+            "marker": "3."
+        },
+        {
+            "self_ref": "#/texts/12",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 49.68000000000001,
+                        "t": 398.30399511718747,
+                        "r": 447.0,
+                        "b": 388.0149874248798,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        77
+                    ]
+                }
+            ],
+            "orig": "4. Summarize the major factors that determine the resting membrane potential.",
+            "text": "Summarize the major factors that determine the resting membrane potential.",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": true,
+            "marker": "4."
+        },
+        {
+            "self_ref": "#/texts/13",
+            "parent": {
+                "cref": "#/groups/1"
+            },
+            "children": [],
+            "content_layer": "body",
+            "meta": null,
+            "label": "list_item",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 223.07999999999998,
+                        "t": 356.9039951171875,
+                        "r": 379.08,
+                        "b": 346.6149874248797,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        33
+                    ]
+                }
+            ],
+            "orig": "~ End of this tutorial question ~",
+            "text": "~ End of this tutorial question ~",
+            "formatting": null,
+            "hyperlink": null,
+            "enumerated": false,
+            "marker": ""
+        }
+    ],
+    "pictures": [],
+    "tables": [
+        {
+            "self_ref": "#/tables/0",
+            "parent": {
+                "cref": "#/body"
+            },
+            "children": [
+                {
+                    "cref": "#/texts/5"
+                }
+            ],
+            "content_layer": "body",
+            "meta": null,
+            "label": "table",
+            "prov": [
+                {
+                    "page_no": 1,
+                    "bbox": {
+                        "l": 51.64774703979492,
+                        "t": 670.6366577148438,
+                        "r": 546.8167114257812,
+                        "b": 610.4532775878906,
+                        "coord_origin": "BOTTOMLEFT"
+                    },
+                    "charspan": [
+                        0,
+                        0
+                    ]
+                }
+            ],
+            "captions": [
+                {
+                    "cref": "#/texts/5"
+                }
+            ],
+            "references": [],
+            "footnotes": [],
+            "image": null,
+            "data": {
+                "table_cells": [
+                    {
+                        "bbox": {
+                            "l": 83.76,
+                            "t": 343.17600000000004,
+                            "r": 101.11200000000001,
+                            "b": 353.58745454545453,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Ion",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 146.52,
+                            "t": 343.17600000000004,
+                            "r": 191.13600000000002,
+                            "b": 367.3874545454545,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "External [ion] o",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 222.24,
+                            "t": 343.17600000000004,
+                            "r": 264.216,
+                            "b": 367.3874545454545,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "Internal [ion] i",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 291.24,
+                            "t": 343.17600000000004,
+                            "r": 356.52,
+                            "b": 367.3874545454545,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "Relative permeability",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 401.76,
+                            "t": 343.17600000000004,
+                            "r": 420.633096,
+                            "b": 353.58745454545453,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "E ion",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 463.92,
+                            "t": 343.17600000000004,
+                            "r": 535.4879999999999,
+                            "b": 353.58745454545453,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 0,
+                        "end_row_offset_idx": 1,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "Driving Force",
+                        "column_header": true,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 82.8,
+                            "t": 369.91751999999997,
+                            "r": 102.02279999999999,
+                            "b": 381.6674545454546,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "Na +",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 159.84,
+                            "t": 371.0160000000001,
+                            "r": 177.84,
+                            "b": 381.30500769230775,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "440",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 237.24,
+                            "t": 371.0160000000001,
+                            "r": 249.24,
+                            "b": 381.30500769230775,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "50",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 313.44,
+                            "t": 371.0160000000001,
+                            "r": 334.44,
+                            "b": 381.30500769230775,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "0.04",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 408.48,
+                            "t": 371.0160000000001,
+                            "r": 413.808,
+                            "b": 381.30500769230775,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "?",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 497.16,
+                            "t": 371.0160000000001,
+                            "r": 502.488,
+                            "b": 381.30500769230775,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 1,
+                        "end_row_offset_idx": 2,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "?",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 85.44,
+                            "t": 384.19751999999994,
+                            "r": 99.2628,
+                            "b": 395.94745454545455,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 0,
+                        "end_col_offset_idx": 1,
+                        "text": "K +",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 162.84,
+                            "t": 385.29600000000005,
+                            "r": 174.84,
+                            "b": 395.5850076923077,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 1,
+                        "end_col_offset_idx": 2,
+                        "text": "20",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 234.24,
+                            "t": 385.29600000000005,
+                            "r": 252.24,
+                            "b": 395.5850076923077,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 2,
+                        "end_col_offset_idx": 3,
+                        "text": "400",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 320.88,
+                            "t": 385.29600000000005,
+                            "r": 326.88,
+                            "b": 395.5850076923077,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 3,
+                        "end_col_offset_idx": 4,
+                        "text": "1",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 408.48,
+                            "t": 385.29600000000005,
+                            "r": 413.808,
+                            "b": 395.5850076923077,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 4,
+                        "end_col_offset_idx": 5,
+                        "text": "?",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    },
+                    {
+                        "bbox": {
+                            "l": 497.16,
+                            "t": 385.29600000000005,
+                            "r": 502.488,
+                            "b": 395.5850076923077,
+                            "coord_origin": "TOPLEFT"
+                        },
+                        "row_span": 1,
+                        "col_span": 1,
+                        "start_row_offset_idx": 2,
+                        "end_row_offset_idx": 3,
+                        "start_col_offset_idx": 5,
+                        "end_col_offset_idx": 6,
+                        "text": "?",
+                        "column_header": false,
+                        "row_header": false,
+                        "row_section": false,
+                        "fillable": false
+                    }
+                ],
+                "num_rows": 3,
+                "num_cols": 6,
+                "grid": [
+                    [
+                        {
+                            "bbox": {
+                                "l": 83.76,
+                                "t": 343.17600000000004,
+                                "r": 101.11200000000001,
+                                "b": 353.58745454545453,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Ion",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 146.52,
+                                "t": 343.17600000000004,
+                                "r": 191.13600000000002,
+                                "b": 367.3874545454545,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "External [ion] o",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 222.24,
+                                "t": 343.17600000000004,
+                                "r": 264.216,
+                                "b": 367.3874545454545,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "Internal [ion] i",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 291.24,
+                                "t": 343.17600000000004,
+                                "r": 356.52,
+                                "b": 367.3874545454545,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "Relative permeability",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 401.76,
+                                "t": 343.17600000000004,
+                                "r": 420.633096,
+                                "b": 353.58745454545453,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "E ion",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 463.92,
+                                "t": 343.17600000000004,
+                                "r": 535.4879999999999,
+                                "b": 353.58745454545453,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 0,
+                            "end_row_offset_idx": 1,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "Driving Force",
+                            "column_header": true,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 82.8,
+                                "t": 369.91751999999997,
+                                "r": 102.02279999999999,
+                                "b": 381.6674545454546,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "Na +",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 159.84,
+                                "t": 371.0160000000001,
+                                "r": 177.84,
+                                "b": 381.30500769230775,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "440",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 237.24,
+                                "t": 371.0160000000001,
+                                "r": 249.24,
+                                "b": 381.30500769230775,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "50",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 313.44,
+                                "t": 371.0160000000001,
+                                "r": 334.44,
+                                "b": 381.30500769230775,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "0.04",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 408.48,
+                                "t": 371.0160000000001,
+                                "r": 413.808,
+                                "b": 381.30500769230775,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "?",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 497.16,
+                                "t": 371.0160000000001,
+                                "r": 502.488,
+                                "b": 381.30500769230775,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 1,
+                            "end_row_offset_idx": 2,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "?",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ],
+                    [
+                        {
+                            "bbox": {
+                                "l": 85.44,
+                                "t": 384.19751999999994,
+                                "r": 99.2628,
+                                "b": 395.94745454545455,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 0,
+                            "end_col_offset_idx": 1,
+                            "text": "K +",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 162.84,
+                                "t": 385.29600000000005,
+                                "r": 174.84,
+                                "b": 395.5850076923077,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 1,
+                            "end_col_offset_idx": 2,
+                            "text": "20",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 234.24,
+                                "t": 385.29600000000005,
+                                "r": 252.24,
+                                "b": 395.5850076923077,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 2,
+                            "end_col_offset_idx": 3,
+                            "text": "400",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 320.88,
+                                "t": 385.29600000000005,
+                                "r": 326.88,
+                                "b": 395.5850076923077,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 3,
+                            "end_col_offset_idx": 4,
+                            "text": "1",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 408.48,
+                                "t": 385.29600000000005,
+                                "r": 413.808,
+                                "b": 395.5850076923077,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 4,
+                            "end_col_offset_idx": 5,
+                            "text": "?",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        },
+                        {
+                            "bbox": {
+                                "l": 497.16,
+                                "t": 385.29600000000005,
+                                "r": 502.488,
+                                "b": 395.5850076923077,
+                                "coord_origin": "TOPLEFT"
+                            },
+                            "row_span": 1,
+                            "col_span": 1,
+                            "start_row_offset_idx": 2,
+                            "end_row_offset_idx": 3,
+                            "start_col_offset_idx": 5,
+                            "end_col_offset_idx": 6,
+                            "text": "?",
+                            "column_header": false,
+                            "row_header": false,
+                            "row_section": false,
+                            "fillable": false
+                        }
+                    ]
+                ]
+            },
+            "annotations": []
+        }
+    ],
+    "key_value_items": [],
+    "form_items": [],
+    "pages": {
+        "1": {
+            "size": {
+                "width": 612.1199951171875,
+                "height": 1008.1199951171875
+            },
+            "image": null,
+            "page_no": 1
+        }
+    }
+}

@@ -1,0 +1,463 @@
+{
+    "job": {
+        "id": "pjb-o8c6xyc0bg1zmndc395czqp3381k",
+        "project_id": "d817d7f1-dc95-4e66-a7dd-fd3a54f2e62d",
+        "status": "COMPLETED",
+        "created_at": "2026-04-12 12:28:12.962581+00:00",
+        "error_message": null,
+        "name": "test.pdf",
+        "tier": "agentic",
+        "updated_at": "2026-04-12 12:28:15.081978+00:00"
+    },
+    "images_content_metadata": null,
+    "items": {
+        "pages": [
+            {
+                "items": [
+                    {
+                        "items": [
+                            {
+                                "level": 1,
+                                "md": "# MEDF1011 Tutorial",
+                                "value": "MEDF1011 Tutorial",
+                                "bbox": [
+                                    {
+                                        "h": 25.99885538032346,
+                                        "w": 119.1438276105183,
+                                        "x": 239.49399117759143,
+                                        "y": 39.56371700379907,
+                                        "confidence": 0.73,
+                                        "end_index": 18,
+                                        "label": "paragraph_title",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "heading"
+                            },
+                            {
+                                "level": 1,
+                                "md": "# Membrane Excitability",
+                                "value": "Membrane Excitability",
+                                "bbox": [
+                                    {
+                                        "h": 25.0,
+                                        "w": 119.0,
+                                        "x": 239.0,
+                                        "y": 39.0,
+                                        "confidence": 0.79,
+                                        "end_index": 22,
+                                        "label": "paragraph_title",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "heading"
+                            },
+                            {
+                                "md": "30 September 2020 (Wednesday)",
+                                "value": "30 September 2020 (Wednesday)",
+                                "bbox": [
+                                    {
+                                        "h": 12.08590973555402,
+                                        "w": 160.2164760051448,
+                                        "x": 219.0236407560023,
+                                        "y": 78.72109086020866,
+                                        "confidence": 0.9,
+                                        "end_index": 28,
+                                        "label": "text",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "text"
+                            },
+                            {
+                                "level": 2,
+                                "md": "## <u>Equilibrium potential and resting membrane potential</u>",
+                                "value": "<u>Equilibrium potential and resting membrane potential</u>",
+                                "bbox": [
+                                    {
+                                        "h": 12.06395375887243,
+                                        "w": 279.66648025438263,
+                                        "x": 159.42599353325073,
+                                        "y": 106.49714223275535,
+                                        "confidence": 0.92,
+                                        "end_index": 61,
+                                        "label": "paragraph_title",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "heading"
+                            }
+                        ],
+                        "md": "# MEDF1011 Tutorial\n# Membrane Excitability\n\n30 September 2020 (Wednesday)\n\n## <u>Equilibrium potential and resting membrane potential</u>",
+                        "bbox": [
+                            {
+                                "h": 79.56,
+                                "w": 279.67,
+                                "x": 159.43,
+                                "y": 39.0,
+                                "confidence": null,
+                                "end_index": null,
+                                "label": null,
+                                "start_index": null
+                            }
+                        ],
+                        "type": "header"
+                    },
+                    {
+                        "md": "Ion movements are determined by both the electrical and chemical/concentration gradients. When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation. Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an **electrochemical equilibrium** is reached with no net ion movement. The resulting electrical potential will stabilize at what is now known as the **equilibrium potential (E<sub>ion</sub>)** of that particular ion.",
+                        "value": "Ion movements are determined by both the electrical and chemical/concentration gradients. When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation. Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an electrochemical equilibrium is reached with no net ion movement. The resulting electrical potential will stabilize at what is now known as the equilibrium potential (E<sub>ion</sub>) of that particular ion.",
+                        "bbox": [
+                            {
+                                "h": 94.61640757252765,
+                                "w": 500.80950577452126,
+                                "x": 48.93914180312738,
+                                "y": 140.004633984375,
+                                "confidence": 0.95,
+                                "end_index": 671,
+                                "label": "text",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "md": "The giant axons of the common Atlantic squid, *Loligo pealeii*, played an important role in early biophysical studies of the action potential. Due to its large size (0.5-1 mm in diameter), it is quite accessible to experimental manipulation and intracellular recording of membrane potential. The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).",
+                        "value": "The giant axons of the common Atlantic squid, Loligo pealeii, played an important role in early biophysical studies of the action potential. Due to its large size (0.5-1 mm in diameter), it is quite accessible to experimental manipulation and intracellular recording of membrane potential. The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).",
+                        "bbox": [
+                            {
+                                "h": 68.20095141661112,
+                                "w": 500.79036517840126,
+                                "x": 48.963713389624616,
+                                "y": 248.41794918957223,
+                                "confidence": 0.93,
+                                "end_index": 487,
+                                "label": "text",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "md": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+                        "value": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+                        "bbox": [
+                            {
+                                "h": 12.27907880859375,
+                                "w": 386.36209519936165,
+                                "x": 49.18423346870236,
+                                "y": 323.0798707066978,
+                                "confidence": 0.8,
+                                "end_index": 78,
+                                "label": "text",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "csv": "\"Ion\",\"External[ion]o\",\"Internal[ion]i\",\"Relativepermeability\",\"Eion\",\"Driving Force\"\n\"**Na\u207a**\",\"440\",\"50\",\"0.04\",\"?\",\"?\"\n\"**K\u207a**\",\"20\",\"400\",\"1\",\"?\",\"?\"",
+                        "html": "<table>\n  <thead>\n    <tr>\n        <th>Ion</th>\n        <th>External<br />[ion]o</th>\n        <th>Internal<br />[ion]i</th>\n        <th>Relative<br />permeability</th>\n        <th>Eion</th>\n        <th>Driving Force</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>**Na\u207a**</td>\n        <td>440</td>\n        <td>50</td>\n        <td>0.04</td>\n        <td>?</td>\n        <td>?</td>\n    </tr>\n    <tr>\n        <td>**K\u207a**</td>\n        <td>20</td>\n        <td>400</td>\n        <td>1</td>\n        <td>?</td>\n        <td>?</td>\n    </tr>\n  </tbody>\n</table>",
+                        "md": "| Ion         | External\\[ion]o | Internal\\[ion]i | Relativepermeability | Eion | Driving Force |\n| ----------- | --------------- | --------------- | -------------------- | ---- | ------------- |\n| \\*\\*Na\u207a\\*\\* | 440             | 50              | 0.04                 | ?    | ?             |\n| \\*\\*K\u207a\\*\\*  | 20              | 400             | 1                    | ?    | ?             |",
+                        "rows": [
+                            [
+                                "Ion",
+                                "External[ion]o",
+                                "Internal[ion]i",
+                                "Relativepermeability",
+                                "Eion",
+                                "Driving Force"
+                            ],
+                            [
+                                "**Na\u207a**",
+                                "440",
+                                "50",
+                                "0.04",
+                                "?",
+                                "?"
+                            ],
+                            [
+                                "**K\u207a**",
+                                "20",
+                                "400",
+                                "1",
+                                "?",
+                                "?"
+                            ]
+                        ],
+                        "bbox": [
+                            {
+                                "h": 59.806219550304895,
+                                "w": 494.3919705277605,
+                                "x": 52.43294529731564,
+                                "y": 338.0091244450267,
+                                "confidence": 0.99,
+                                "end_index": 390,
+                                "label": "table",
+                                "start_index": 0
+                            }
+                        ],
+                        "merged_from_pages": null,
+                        "merged_into_page": null,
+                        "parse_concerns": null,
+                        "type": "table"
+                    },
+                    {
+                        "md": "**Questions:**",
+                        "value": "Questions:",
+                        "bbox": [
+                            {
+                                "h": 12.46922386980756,
+                                "w": 54.85036021460555,
+                                "x": 49.22164898294589,
+                                "y": 410.21244180640247,
+                                "confidence": 0.93,
+                                "end_index": 13,
+                                "label": "paragraph_title",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "items": [
+                            {
+                                "md": "Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+                                "value": "Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+                                "bbox": [
+                                    {
+                                        "h": 26.186081482231376,
+                                        "w": 489.7554082915515,
+                                        "x": 49.1718633857541,
+                                        "y": 437.57168980206745,
+                                        "confidence": 0.75,
+                                        "end_index": 129,
+                                        "label": "text",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "text"
+                            }
+                        ],
+                        "md": "1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+                        "ordered": true,
+                        "bbox": [
+                            {
+                                "h": 26.19,
+                                "w": 489.76,
+                                "x": 49.17,
+                                "y": 437.57,
+                                "confidence": 0.75,
+                                "end_index": 132,
+                                "label": "list",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "list"
+                    },
+                    {
+                        "md": "$$E_X = 59/z \\log (\\[X^+]_o / \\[X^+]_i)$$",
+                        "value": "$$E_X = 59/z \\log ([X^+]_o / [X^+]_i)$$",
+                        "bbox": [
+                            {
+                                "h": 12.730924704649372,
+                                "w": 133.47508127858234,
+                                "x": 232.31276391482467,
+                                "y": 478.61327815358237,
+                                "confidence": 0.85,
+                                "end_index": 40,
+                                "label": "text",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "md": "Calculate the equilibrium potential (E<sub>ion</sub>) for Na\u207a and K\u207a ions at 25\u00b0C.",
+                        "value": "Calculate the equilibrium potential (E<sub>ion</sub>) for Na\u207a and K\u207a ions at 25\u00b0C.",
+                        "bbox": [
+                            {
+                                "h": 12.42237044588415,
+                                "w": 336.7968540634527,
+                                "x": 77.09032048399389,
+                                "y": 512.376317663872,
+                                "confidence": 0.89,
+                                "end_index": 81,
+                                "label": "text",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "text"
+                    },
+                    {
+                        "items": [
+                            {
+                                "md": "What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.",
+                                "value": "What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.",
+                                "bbox": [
+                                    {
+                                        "h": 26.14493090939403,
+                                        "w": 500.6594701091487,
+                                        "x": 48.81755505043588,
+                                        "y": 552.1173858326982,
+                                        "confidence": 0.92,
+                                        "end_index": 178,
+                                        "label": "text",
+                                        "start_index": 0
+                                    },
+                                    {
+                                        "h": 11.85,
+                                        "w": 350.6,
+                                        "x": 48.91,
+                                        "y": 585.81,
+                                        "confidence": 1.0,
+                                        "end_index": 174,
+                                        "label": "text",
+                                        "start_index": 134
+                                    }
+                                ],
+                                "type": "text"
+                            },
+                            {
+                                "md": "Explain why the resting membrane potential is much closer to E<sub>K\u207a</sub>.",
+                                "value": "Explain why the resting membrane potential is much closer to E<sub>K\u207a</sub>.",
+                                "bbox": [
+                                    {
+                                        "h": 11.852445517339874,
+                                        "w": 350.60302390851274,
+                                        "x": 48.91488003822885,
+                                        "y": 585.8112107398057,
+                                        "confidence": 0.9,
+                                        "end_index": 75,
+                                        "label": "text",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "text"
+                            },
+                            {
+                                "md": "Summarize the major factors that determine the resting membrane potential.",
+                                "value": "Summarize the major factors that determine the resting membrane potential.",
+                                "bbox": [
+                                    {
+                                        "h": 12.21610732660063,
+                                        "w": 395.2761364388815,
+                                        "x": 48.66253034608422,
+                                        "y": 605.3975027200839,
+                                        "confidence": 0.9,
+                                        "end_index": 73,
+                                        "label": "text",
+                                        "start_index": 0
+                                    },
+                                    {
+                                        "h": 11.85,
+                                        "w": 350.6,
+                                        "x": 48.91,
+                                        "y": 585.81,
+                                        "confidence": 1.0,
+                                        "end_index": 73,
+                                        "label": "text",
+                                        "start_index": 43
+                                    }
+                                ],
+                                "type": "text"
+                            }
+                        ],
+                        "md": "2. What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.\n\n3. Explain why the resting membrane potential is much closer to E<sub>K\u207a</sub>.\n\n4. Summarize the major factors that determine the resting membrane potential.",
+                        "ordered": true,
+                        "bbox": [
+                            {
+                                "h": 65.5,
+                                "w": 500.81,
+                                "x": 48.66,
+                                "y": 552.12,
+                                "confidence": 0.94,
+                                "end_index": 341,
+                                "label": "list",
+                                "start_index": 0
+                            }
+                        ],
+                        "type": "list"
+                    },
+                    {
+                        "items": [
+                            {
+                                "md": "\\~ End of this tutorial question \\~",
+                                "value": "~ End of this tutorial question ~",
+                                "bbox": [
+                                    {
+                                        "h": 12.0,
+                                        "w": 152.0,
+                                        "x": 223.0,
+                                        "y": 646.0,
+                                        "confidence": 0.83,
+                                        "end_index": 34,
+                                        "label": "text",
+                                        "start_index": 0
+                                    }
+                                ],
+                                "type": "text"
+                            }
+                        ],
+                        "md": "~ End of this tutorial question ~",
+                        "bbox": [
+                            {
+                                "h": 12.0,
+                                "w": 152.0,
+                                "x": 223.0,
+                                "y": 646.0,
+                                "confidence": null,
+                                "end_index": null,
+                                "label": null,
+                                "start_index": null
+                            }
+                        ],
+                        "type": "footer"
+                    }
+                ],
+                "page_height": 1008.12,
+                "page_number": 1,
+                "page_width": 612.12,
+                "success": true
+            }
+        ]
+    },
+    "job_metadata": null,
+    "markdown": {
+        "pages": [
+            {
+                "markdown": "Ion movements are determined by both the electrical and chemical/concentration gradients. When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation. Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an **electrochemical equilibrium** is reached with no net ion movement. The resulting electrical potential will stabilize at what is now known as the **equilibrium potential (E<sub>ion</sub>)** of that particular ion.\n\nThe giant axons of the common Atlantic squid, *Loligo pealeii*, played an important role in early biophysical studies of the action potential. Due to its large size (0.5-1 mm in diameter), it is quite accessible to experimental manipulation and intracellular recording of membrane potential. The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).\n\nTable: Concentration of ions inside and outside of the Squid giant axon (in mM)\n\n\n<table>\n  <thead>\n    <tr>\n        <th>Ion</th>\n        <th>External<br/>[ion]o</th>\n        <th>Internal<br/>[ion]i</th>\n        <th>Relative<br/>permeability</th>\n        <th>Eion</th>\n        <th>Driving Force</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n        <td>**Na\u207a**</td>\n        <td>440</td>\n        <td>50</td>\n        <td>0.04</td>\n        <td>?</td>\n        <td>?</td>\n    </tr>\n    <tr>\n        <td>**K\u207a**</td>\n        <td>20</td>\n        <td>400</td>\n        <td>1</td>\n        <td>?</td>\n        <td>?</td>\n    </tr>\n  </tbody>\n</table>\n\n**Questions:**\n\n1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:\n\n$$E_X = 59/z \\log ([X^+]_o / [X^+]_i)$$\n\nCalculate the equilibrium potential (E<sub>ion</sub>) for Na\u207a and K\u207a ions at 25\u00b0C.\n\n2. What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.\n\n3. Explain why the resting membrane potential is much closer to E<sub>K\u207a</sub>.\n\n4. Summarize the major factors that determine the resting membrane potential.",
+                "page_number": 1,
+                "success": true,
+                "footer": "~ End of this tutorial question ~",
+                "header": "# MEDF1011 Tutorial\n# Membrane Excitability\n\n30 September 2020 (Wednesday)\n\n## <u>Equilibrium potential and resting membrane potential</u>"
+            }
+        ]
+    },
+    "markdown_full": null,
+    "metadata": {
+        "pages": [
+            {
+                "page_number": 1,
+                "confidence": 0.991,
+                "cost_optimized": false,
+                "original_orientation_angle": 0,
+                "printed_page_number": null,
+                "slide_section_name": null,
+                "speaker_notes": null,
+                "triggered_auto_mode": false
+            }
+        ]
+    },
+    "raw_parameters": null,
+    "result_content_metadata": null,
+    "text": {
+        "pages": [
+            {
+                "page_number": 1,
+                "text": "                                       MEDF1011 Tutorial\n            Membrane Excitability\n        30 September 2020 (Wednesday)\n                     ~~Equilibrium potential and resting membrane potential~~  \n\nIon movements are determined by both the electrical and chemical/concentration gradients. When a\nparticular species of ion diffuses down the chemical gradient across the cell membrane and this is not\naccompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the\ncharge separation.        Eventually when the ion flow going in opposite direction driven by the chemical\nand electrical gradients becomes equal in magnitude, an electrochemical equilibrium is reached with\nno net ion movement. The resulting electrical potential will stabilize at what is now known as the\nequilibrium potential (Eion) of that particular ion.\nThe giant axons of the common Atlantic squid, Loligo pealeii,           played an important role in early\nbiophysical studies of the action potential. Due to its large size (0.5-1 mm in diameter), it is quite\naccessible to experimental manipulation and intracellular recording of membrane potential. The table\nbelow gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular)\nand the extracellular fluid (similar to sea water in which this animal lives in).\nTable: Concentration of ions inside and outside of the Squid giant axon (in mM)\n        Ion    External    Internal     Relative    Eion    Driving Force\n                [ion]\u2092      [ion]i    permeability\n        Na\u207a      440          50          0.04       ?            ?\n         K\u207a       20         400           1         ?            ?\nQuestions:\n1.     Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1)\n       determined at 25\u00baC is given as:\n                                       EX = 59/z log ([X\u207a]\u2092 / [X\u207a]i)\n\n        Calculate the equilibrium potential (Eion) for Na\u207a and K\u207a ions at 25\u00b0C.\n\n2.      What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion?\n        Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.\n3.      Explain why the resting membrane potential is much closer to EK\u207a.\n4.      Summarize the major factors that determine the resting membrane potential.\n\n                    ~ End of this tutorial question ~"
+            }
+        ]
+    },
+    "text_full": null,
+    "debug": null
+}

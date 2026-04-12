@@ -1,0 +1,134 @@
+[
+    {
+        "type": "header",
+        "page": 1,
+        "parent_header": null,
+        "text": "# MEDF1011 Tutorial\n# Membrane Excitability\n\n30 September 2020 (Wednesday)\n\n## <u>Equilibrium potential and resting membrane potential</u>",
+        "bbox": {
+            "x": 159.43,
+            "y": 39.0,
+            "w": 279.67,
+            "h": 79.56
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "Ion movements are determined by both the electrical and chemical/concentration gradients. When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation. Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an electrochemical equilibrium is reached with no net ion movement. The resulting electrical potential will stabilize at what is now known as the equilibrium potential (E<sub>ion</sub>) of that particular ion.",
+        "bbox": {
+            "x": 48.93914180312738,
+            "y": 140.004633984375,
+            "w": 500.80950577452126,
+            "h": 94.61640757252765
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "The giant axons of the common Atlantic squid, Loligo pealeii, played an important role in early biophysical studies of the action potential. Due to its large size (0.5-1 mm in diameter), it is quite accessible to experimental manipulation and intracellular recording of membrane potential. The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in).",
+        "bbox": {
+            "x": 48.963713389624616,
+            "y": 248.41794918957223,
+            "w": 500.79036517840126,
+            "h": 68.20095141661112
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+        "bbox": {
+            "x": 49.18423346870236,
+            "y": 323.0798707066978,
+            "w": 386.36209519936165,
+            "h": 12.27907880859375
+        }
+    },
+    {
+        "type": "table",
+        "page": 1,
+        "parent_header": null,
+        "text": "| Ion         | External\\[ion]o | Internal\\[ion]i | Relativepermeability | Eion | Driving Force |\n| ----------- | --------------- | --------------- | -------------------- | ---- | ------------- |\n| \\*\\*Na\u207a\\*\\* | 440             | 50              | 0.04                 | ?    | ?             |\n| \\*\\*K\u207a\\*\\*  | 20              | 400             | 1                    | ?    | ?             |",
+        "bbox": {
+            "x": 52.43294529731564,
+            "y": 338.0091244450267,
+            "w": 494.3919705277605,
+            "h": 59.806219550304895
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "Questions:",
+        "bbox": {
+            "x": 49.22164898294589,
+            "y": 410.21244180640247,
+            "w": 54.85036021460555,
+            "h": 12.46922386980756
+        }
+    },
+    {
+        "type": "list",
+        "page": 1,
+        "parent_header": null,
+        "text": "1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+        "bbox": {
+            "x": 49.17,
+            "y": 437.57,
+            "w": 489.76,
+            "h": 26.19
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "$$E_X = 59/z \\log ([X^+]_o / [X^+]_i)$$",
+        "bbox": {
+            "x": 232.31276391482467,
+            "y": 478.61327815358237,
+            "w": 133.47508127858234,
+            "h": 12.730924704649372
+        }
+    },
+    {
+        "type": "text",
+        "page": 1,
+        "parent_header": null,
+        "text": "Calculate the equilibrium potential (E<sub>ion</sub>) for Na\u207a and K\u207a ions at 25\u00b0C.",
+        "bbox": {
+            "x": 77.09032048399389,
+            "y": 512.376317663872,
+            "w": 336.7968540634527,
+            "h": 12.42237044588415
+        }
+    },
+    {
+        "type": "list",
+        "page": 1,
+        "parent_header": null,
+        "text": "2. What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV.\n\n3. Explain why the resting membrane potential is much closer to E<sub>K\u207a</sub>.\n\n4. Summarize the major factors that determine the resting membrane potential.",
+        "bbox": {
+            "x": 48.66,
+            "y": 552.12,
+            "w": 500.81,
+            "h": 65.5
+        }
+    },
+    {
+        "type": "footer",
+        "page": 1,
+        "parent_header": null,
+        "text": "~ End of this tutorial question ~",
+        "bbox": {
+            "x": 223.0,
+            "y": 646.0,
+            "w": 152.0,
+            "h": 12.0
+        }
+    }
+]

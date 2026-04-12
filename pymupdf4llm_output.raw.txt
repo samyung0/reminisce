@@ -1,0 +1,250 @@
+[
+    {
+        "metadata": {
+            "format": "PDF 1.5",
+            "title": "Foundation Studies (PFOS)",
+            "author": "Prof. Wing-hung KO",
+            "subject": "",
+            "keywords": "",
+            "creator": "Acrobat PDFMaker 15 for Word",
+            "producer": "Adobe PDF Library 15.0",
+            "creationDate": "D:20200917094302+08'00'",
+            "modDate": "D:20200917094307+08'00'",
+            "trapped": "",
+            "encryption": null,
+            "file_path": "test.pdf",
+            "page_count": 1,
+            "page_number": 1
+        },
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ],
+        "page_boxes": [
+            {
+                "index": 0,
+                "class": "section-header",
+                "bbox": [
+                    240,
+                    43,
+                    366,
+                    69
+                ],
+                "pos": [
+                    0,
+                    49
+                ]
+            },
+            {
+                "index": 1,
+                "class": "text",
+                "bbox": [
+                    219,
+                    82,
+                    386,
+                    94
+                ],
+                "pos": [
+                    49,
+                    81
+                ]
+            },
+            {
+                "index": 2,
+                "class": "section-header",
+                "bbox": [
+                    160,
+                    110,
+                    443,
+                    122
+                ],
+                "pos": [
+                    81,
+                    143
+                ]
+            },
+            {
+                "index": 3,
+                "class": "text",
+                "bbox": [
+                    49,
+                    143,
+                    553,
+                    238
+                ],
+                "pos": [
+                    143,
+                    810
+                ]
+            },
+            {
+                "index": 4,
+                "class": "text",
+                "bbox": [
+                    49,
+                    252,
+                    553,
+                    318
+                ],
+                "pos": [
+                    810,
+                    1304
+                ]
+            },
+            {
+                "index": 5,
+                "class": "caption",
+                "bbox": [
+                    49,
+                    327,
+                    436,
+                    339
+                ],
+                "pos": [
+                    1304,
+                    1386
+                ]
+            },
+            {
+                "index": 6,
+                "class": "table",
+                "bbox": [
+                    54,
+                    340,
+                    546,
+                    397
+                ],
+                "pos": [
+                    1386,
+                    1587
+                ]
+            },
+            {
+                "index": 7,
+                "class": "section-header",
+                "bbox": [
+                    49,
+                    414,
+                    108,
+                    425
+                ],
+                "pos": [
+                    1587,
+                    1607
+                ]
+            },
+            {
+                "index": 8,
+                "class": "list-item",
+                "bbox": [
+                    49,
+                    441,
+                    543,
+                    467
+                ],
+                "pos": [
+                    1607,
+                    1745
+                ]
+            },
+            {
+                "index": 9,
+                "class": "section-header",
+                "bbox": [
+                    233,
+                    482,
+                    369,
+                    494
+                ],
+                "pos": [
+                    1745,
+                    1786
+                ]
+            },
+            {
+                "index": 10,
+                "class": "text",
+                "bbox": [
+                    78,
+                    516,
+                    421,
+                    528
+                ],
+                "pos": [
+                    1786,
+                    1864
+                ]
+            },
+            {
+                "index": 11,
+                "class": "list-item",
+                "bbox": [
+                    49,
+                    556,
+                    556,
+                    581
+                ],
+                "pos": [
+                    1864,
+                    2049
+                ]
+            },
+            {
+                "index": 12,
+                "class": "list-item",
+                "bbox": [
+                    49,
+                    589,
+                    403,
+                    601
+                ],
+                "pos": [
+                    2049,
+                    2123
+                ]
+            },
+            {
+                "index": 13,
+                "class": "list-item",
+                "bbox": [
+                    49,
+                    609,
+                    447,
+                    621
+                ],
+                "pos": [
+                    2123,
+                    2203
+                ]
+            },
+            {
+                "index": 14,
+                "class": "text",
+                "bbox": [
+                    223,
+                    650,
+                    380,
+                    662
+                ],
+                "pos": [
+                    2203,
+                    2239
+                ]
+            }
+        ],
+        "text": "## **MEDF1011 Tutorial Membrane Excitability** \n\n30 September 2020 (Wednesday) \n\n## **Equilibrium potential and resting membrane potential** \n\nIon movements are determined by both the electrical and chemical/concentration gradients.  When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not accompanied by its counter-ion (of opposite charge), an electrical potential will be set up due to the charge separation.  Eventually when the ion flow going in opposite direction driven by the chemical and electrical gradients becomes equal in magnitude, an **electrochemical equilibrium** is reached with no net ion movement.  The resulting electrical potential will stabilize at what is now known as the **equilibrium potential (Eion)** of that particular ion. \n\nThe giant axons of the common Atlantic squid, _Loligo pealeii_ , played an important role in early biophysical studies of the action potential.  Due to its large size (0.5-1 mm in diameter), it is quite accessible to experimental manipulation and intracellular recording of membrane potential.  The table below gives the typical values for the concentrations of ions inside the squid axon (i.e. intracellular) and the extracellular fluid (similar to sea water in which this animal lives in). \n\nTable: Concentration of ions inside and outside of the Squid giant axon (in mM) \n\n|**Ion**|**External**<br>**[ion]o**|**Internal**<br>**[ion]i**|**Relative**<br>**permeability**|**Eion**|**Driving Force**|\n|---|---|---|---|---|---|\n|**Na+**|440|50|0.04|?|?|\n|**K+**|20|400|1|?|?|\n\n\n\n## **Questions:** \n\n1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at _25\u00baC_ is given as: \n\n## EX = 59/z log ([X[+] ]o / [X[+] ]i) \n\nCalculate the equilibrium potential (Eion) for Na[+] and K[+] ions at 25\u00b0C. \n\n2. What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV. \n\n3. Explain why the resting membrane potential is much closer to EK[+] . \n\n4. Summarize the major factors that determine the resting membrane potential. \n\n~ End of this tutorial question ~ \n\n"
+    }
+]

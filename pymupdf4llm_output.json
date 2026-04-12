@@ -1,0 +1,437 @@
+[
+    {
+        "text": "## **MEDF1011 Tutorial Membrane Excitability** \n\n",
+        "type": "section-header",
+        "bbox": [
+            240,
+            43,
+            366,
+            69
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "30 September 2020 (Wednesday) \n\n",
+        "type": "text",
+        "bbox": [
+            219,
+            82,
+            386,
+            94
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "## **Equilibrium potential and resting membrane potential** \n\n",
+        "type": "section-header",
+        "bbox": [
+            160,
+            110,
+            443,
+            122
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "Ion movements are determined by both the electrical and chemical/concentration gradients.  When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not",
+        "type": "text",
+        "bbox": [
+            49,
+            143,
+            553,
+            238
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "The giant axons of the common Atlantic squid, _Loligo pealeii_ , played an important role in early biophysical studies of the action potential.  Due to its large size (0.5-1 mm in diameter), it is qui",
+        "type": "text",
+        "bbox": [
+            49,
+            252,
+            553,
+            318
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM) \n\n",
+        "type": "caption",
+        "bbox": [
+            49,
+            327,
+            436,
+            339
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "|**Ion**|**External**<br>**[ion]o**|**Internal**<br>**[ion]i**|**Relative**<br>**permeability**|**Eion**|**Driving Force**|\n|---|---|---|---|---|---|\n|**Na+**|440|50|0.04|?|?|\n|**K+**|20|400|1|?|?|\n\n\n",
+        "type": "table",
+        "bbox": [
+            54,
+            340,
+            546,
+            397
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "## **Questions:** \n\n",
+        "type": "section-header",
+        "bbox": [
+            49,
+            414,
+            108,
+            425
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "1. Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at _25\u00baC_ is given as: \n\n",
+        "type": "list-item",
+        "bbox": [
+            49,
+            441,
+            543,
+            467
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "## EX = 59/z log ([X[+] ]o / [X[+] ]i) \n\n",
+        "type": "section-header",
+        "bbox": [
+            233,
+            482,
+            369,
+            494
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "Calculate the equilibrium potential (Eion) for Na[+] and K[+] ions at 25\u00b0C. \n\n",
+        "type": "text",
+        "bbox": [
+            78,
+            516,
+            421,
+            528
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "2. What is the meaning of a \u201cdriving force\u201d (or electrochemical driving force) for each ion? Calculate the driving force for each ion if the resting membrane potential equals \u201360 mV. \n\n",
+        "type": "list-item",
+        "bbox": [
+            49,
+            556,
+            556,
+            581
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "3. Explain why the resting membrane potential is much closer to EK[+] . \n\n",
+        "type": "list-item",
+        "bbox": [
+            49,
+            589,
+            403,
+            601
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "4. Summarize the major factors that determine the resting membrane potential. \n\n",
+        "type": "list-item",
+        "bbox": [
+            49,
+            609,
+            447,
+            621
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    },
+    {
+        "text": "~ End of this tutorial question ~ \n\n",
+        "type": "text",
+        "bbox": [
+            223,
+            650,
+            380,
+            662
+        ],
+        "page": 1,
+        "parent_header": "Internal",
+        "toc_items": [
+            [
+                1,
+                "Membrane Excitability",
+                1
+            ],
+            [
+                1,
+                "Equilibrium potential and resting membrane potential",
+                1
+            ],
+            [
+                1,
+                "Internal",
+                1
+            ]
+        ]
+    }
+]

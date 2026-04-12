@@ -1,0 +1,201 @@
+[
+    {
+        "label": "section_header",
+        "level": 1,
+        "parent_header": "MEDF1011 Tutorial Membrane Excitability",
+        "text": "MEDF1011 Tutorial Membrane Excitability",
+        "header_level": 1,
+        "page": 1,
+        "bbox": {
+            "l": 240.12000000000003,
+            "t": 963.8639951171874,
+            "r": 365.16,
+            "b": 939.652540571733
+        }
+    },
+    {
+        "label": "text",
+        "level": 1,
+        "parent_header": "MEDF1011 Tutorial Membrane Excitability",
+        "text": "30 September 2020 (Wednesday)",
+        "page": 1,
+        "bbox": {
+            "l": 219.48,
+            "t": 924.9839951171874,
+            "r": 385.8,
+            "b": 914.6949874248797
+        }
+    },
+    {
+        "label": "section_header",
+        "level": 1,
+        "parent_header": "Equilibrium potential and resting membrane potential",
+        "text": "Equilibrium potential and resting membrane potential",
+        "header_level": 1,
+        "page": 1,
+        "bbox": {
+            "l": 160.08,
+            "t": 897.2639951171875,
+            "r": 442.08000000000004,
+            "b": 886.852540571733
+        }
+    },
+    {
+        "label": "text",
+        "level": 1,
+        "parent_header": "Equilibrium potential and resting membrane potential",
+        "text": "Ion movements are determined by both the electrical and chemical/concentration gradients.  When a particular species of ion diffuses down the chemical gradient across the cell membrane and this is not",
+        "page": 1,
+        "bbox": {
+            "l": 49.68,
+            "t": 863.9039951171875,
+            "r": 552.4811999999998,
+            "b": 770.6925405717329
+        }
+    },
+    {
+        "label": "text",
+        "level": 1,
+        "parent_header": "Equilibrium potential and resting membrane potential",
+        "text": "The  giant  axons  of  the  common  Atlantic  squid, Loligo  pealeii ,  played  an  important  role  in  early biophysical  studies  of  the  action  potential.    Due  to  its  large  size  (0.5-1  m",
+        "page": 1,
+        "bbox": {
+            "l": 49.68000000000001,
+            "t": 755.4239951171875,
+            "r": 552.4811999999998,
+            "b": 689.93498742488
+        }
+    },
+    {
+        "label": "table",
+        "level": 1,
+        "parent_header": "Equilibrium potential and resting membrane potential",
+        "text": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)\n\n| Ion   |   External [ion] o |   Internal [ion] i |   Relative permeability | E ion   | Driving Force   |\n|-------|--------------------|--------------------|-------------------------|---------|-----------------|\n| Na +  |                440 |                 50 |                    0.04 | ?       | ?               |\n| K +   |                 20 |                400 |                    1    | ?       | ?               |",
+        "page": 1,
+        "bbox": {
+            "l": 51.64774703979492,
+            "t": 670.6366577148438,
+            "r": 546.8167114257812,
+            "b": 610.4532775878906
+        }
+    },
+    {
+        "label": "caption",
+        "level": 2,
+        "parent_header": "Equilibrium potential and resting membrane potential",
+        "text": "Table: Concentration of ions inside and outside of the Squid giant axon (in mM)",
+        "page": 1,
+        "bbox": {
+            "l": 49.68000000000012,
+            "t": 680.4239951171877,
+            "r": 438.2400000000002,
+            "b": 670.13498742488
+        }
+    },
+    {
+        "label": "section_header",
+        "level": 1,
+        "parent_header": "Questions:",
+        "text": "Questions:",
+        "header_level": 1,
+        "page": 1,
+        "bbox": {
+            "l": 49.68,
+            "t": 593.4239951171875,
+            "r": 107.4,
+            "b": 583.012540571733
+        }
+    },
+    {
+        "label": "list_item",
+        "level": 2,
+        "parent_header": "Questions:",
+        "text": "Based on the Nernst equation, the equilibrium potential for a monovalent ion (i.e. valency, z = 1) determined at 25\u00baC is given as:",
+        "page": 1,
+        "bbox": {
+            "l": 49.68000000000001,
+            "t": 566.1839951171875,
+            "r": 542.04,
+            "b": 542.0560185775981
+        }
+    },
+    {
+        "label": "formula",
+        "level": 1,
+        "parent_header": "Questions:",
+        "text": "",
+        "formula_text": null,
+        "page": 1,
+        "bbox": {
+            "l": 233.15999999999997,
+            "t": 526.7224751171875,
+            "r": 368.88,
+            "b": 514.3088399633414
+        }
+    },
+    {
+        "label": "text",
+        "level": 1,
+        "parent_header": "Questions:",
+        "text": "Calculate the equilibrium potential (Eion) for Na + and K + ions at 25\u00b0C.",
+        "page": 1,
+        "bbox": {
+            "l": 78.0,
+            "t": 493.1224751171875,
+            "r": 420.0,
+            "b": 480.8949874248798
+        }
+    },
+    {
+        "label": "list_item",
+        "level": 2,
+        "parent_header": "Questions:",
+        "text": "What  is  the  meaning  of  a  'driving  force'  (or  electrochemical  driving  force)  for  each  ion? Calculate the driving force for each ion if the resting membrane potential equals -60 mV.",
+        "page": 1,
+        "bbox": {
+            "l": 49.68,
+            "t": 451.58399511718744,
+            "r": 555.48,
+            "b": 427.4949874248798
+        }
+    },
+    {
+        "label": "list_item",
+        "level": 2,
+        "parent_header": "Questions:",
+        "text": "Explain why the resting membrane potential is much closer to EK + .",
+        "page": 1,
+        "bbox": {
+            "l": 49.68,
+            "t": 419.9259551171874,
+            "r": 402.36,
+            "b": 407.5088399633413
+        }
+    },
+    {
+        "label": "list_item",
+        "level": 2,
+        "parent_header": "Questions:",
+        "text": "Summarize the major factors that determine the resting membrane potential.",
+        "page": 1,
+        "bbox": {
+            "l": 49.68000000000001,
+            "t": 398.30399511718747,
+            "r": 447.0,
+            "b": 388.0149874248798
+        }
+    },
+    {
+        "label": "list_item",
+        "level": 2,
+        "parent_header": "Questions:",
+        "text": "~ End of this tutorial question ~",
+        "page": 1,
+        "bbox": {
+            "l": 223.07999999999998,
+            "t": 356.9039951171875,
+            "r": 379.08,
+            "b": 346.6149874248797
+        }
+    }
+]
