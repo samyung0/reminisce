@@ -373,7 +373,7 @@
                 }
             ],
             "orig": "EX = 59/z log ([X + ]o / [X + ]i )",
-            "text": "",
+            "text": "E _ { X } = 5 9 / _ { Z } \\log \\left ( [ X ^ { + } ] _ { o } / \\left [ X ^ { + } \\right ] _ { i } \\right )",
             "formatting": null,
             "hyperlink": null
         },

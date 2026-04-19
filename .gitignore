@@ -27,3 +27,5 @@ out/
 # Conversation exports
 *.md
 !README.md
+
+.env.test.local

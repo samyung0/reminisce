@@ -31,7 +31,7 @@ from liteparse import LiteParse
 
 import asyncio
 
-load_dotenv(".env.test.local")
+load_dotenv("../.env.test.local")
 
 async def llama_cloud_parser(file_path):
     print("Running LlamaCloud parser...")
