@@ -28,7 +28,7 @@ from docling_core.types.doc.document import (
 )
 from dotenv import load_dotenv
 
-load_dotenv("../.env.test.local")
+load_dotenv(Path(__file__).parent.parent / ".env.test.local")
 
 OUT_DIR = Path(__file__).parent
 
@@ -126,7 +126,9 @@ def extract_items(doc: DoclingDocument) -> list[dict]:
 
         elif isinstance(item, CodeItem):
             entry["text"] = item.text
-            entry["code_language"] = item.code_language.value if item.code_language else None
+            entry["code_language"] = (
+                item.code_language.value if item.code_language else None
+            )
 
         elif isinstance(item, PictureItem):
             entry["caption"] = resolve_caption(doc, item)
@@ -213,7 +215,7 @@ async def docling_parser(file_path: str) -> dict:
 
 
 async def main():
-    file_path = Path(__file__).parent / "test.pdf"
+    file_path = Path(__file__).parent / "data" / "test.pdf"
     await docling_parser(file_path.as_posix())
 
 

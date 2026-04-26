@@ -17,4 +17,10 @@ dependencies = [
     "docling>=2.86.0",
     "pymupdf4llm>=1.27.2.2",
     "peft>=0.18.1",
+    "llama-index-graph-stores-neo4j>=0.7.0",
+    "llama-index-llms-openai-like>=0.7.2",
+    "neo4j>=5.28.3",
+    "graspologic>=3.4.4",
+    "networkx>=3.6.1",
+    "httpx>=0.28.1",
 ]

@@ -31,7 +31,9 @@ from liteparse import LiteParse
 
 import asyncio
 
-load_dotenv("../.env.test.local")
+load_dotenv(Path(__file__).parent.parent / ".env.test.local")
+print(os.environ.get("LLAMA_CLOUD_API_KEY"))
+
 
 async def llama_cloud_parser(file_path):
     print("Running LlamaCloud parser...")
@@ -48,7 +50,7 @@ async def llama_cloud_parser(file_path):
         },
         expand=["markdown", "text", "metadata", "items"],
     )
-    
+
     with open("llama_cloud_output.raw.txt", "w") as f:
         f.write(json.dumps(job.model_dump(), indent=4, default=str))
 
@@ -79,9 +81,10 @@ async def llama_cloud_parser(file_path):
 
     with open("llama_cloud_output.json", "w") as f:
         f.write(json.dumps(llama_output, indent=4, default=str))
-        
+
     print("LlamaCloud parser completed")
     return llama_output
+
 
 async def pymupdf4llm_parser(file_path):
     print("Running pymupdf4llm parser...")
@@ -101,40 +104,45 @@ async def pymupdf4llm_parser(file_path):
 
         boxes = page.get("page_boxes", [])
         if not boxes:
-            structured_data.append({
-                "text": page["text"][:200],
-                "type": "text",
-                "page": page_num,
-                "parent_header": current_header,
-                "toc_items": toc_items,
-            })
+            structured_data.append(
+                {
+                    "text": page["text"][:200],
+                    "type": "text",
+                    "page": page_num,
+                    "parent_header": current_header,
+                    "toc_items": toc_items,
+                }
+            )
             continue
 
         for box in boxes:
-            text = page["text"][box["pos"][0]:box["pos"][1]]
+            text = page["text"][box["pos"][0] : box["pos"][1]]
             if box["class"] == "text" and text.lstrip().startswith("#"):
                 current_header = text.lstrip().lstrip("#").strip()
-            structured_data.append({
-                "text": text[:200],
-                "type": box["class"],
-                "bbox": box["bbox"],
-                "page": page_num,
-                "parent_header": current_header,
-                "toc_items": toc_items,
-            })
+            structured_data.append(
+                {
+                    "text": text[:200],
+                    "type": box["class"],
+                    "bbox": box["bbox"],
+                    "page": page_num,
+                    "parent_header": current_header,
+                    "toc_items": toc_items,
+                }
+            )
 
     with open("pymupdf4llm_output.json", "w") as f:
         f.write(json.dumps(structured_data, indent=4, default=str))
-        
+
     print("pymupdf4llm parser completed")
     return structured_data
+
 
 async def docling_parser(file_path):
     print("Running docling parser...")
     converter = DocumentConverter()
     doc_result = converter.convert(file_path)
     doc = doc_result.document
-    
+
     with open("docling_output.raw.txt", "w") as f:
         f.write(json.dumps(doc.model_dump(), indent=4))
 
@@ -174,7 +182,7 @@ async def docling_parser(file_path):
 
     with open("docling_output.json", "w") as f:
         f.write(json.dumps(docling_output, indent=4))
-        
+
     print("docling parser completed")
     return docling_output
 
@@ -183,41 +191,43 @@ async def liteparse_parser(file_path):
     print("Running liteparse parser...")
     lite_parser = LiteParse()
     lite_result: ParseResult = lite_parser.parse(file_path)
-    
+
     with open("liteparse_output.raw.txt", "w") as f:
         f.write(json.dumps(lite_result, indent=4, default=str))
 
     liteparse_output = []
     for page in lite_result.pages:
         for text_item in page.textItems:
-            liteparse_output.append({
-                "text": text_item.text[:200],
-                "page": page.pageNum,
-                "bbox": {
-                    "x": text_item.x,
-                    "y": text_item.y,
-                    "w": text_item.width,
-                    "h": text_item.height,
-                },
-                "font_name": text_item.fontName,
-                "font_size": text_item.fontSize,
-            })
+            liteparse_output.append(
+                {
+                    "text": text_item.text[:200],
+                    "page": page.pageNum,
+                    "bbox": {
+                        "x": text_item.x,
+                        "y": text_item.y,
+                        "w": text_item.width,
+                        "h": text_item.height,
+                    },
+                    "font_name": text_item.fontName,
+                    "font_size": text_item.fontSize,
+                }
+            )
 
     with open("liteparse_output.json", "w") as f:
         f.write(json.dumps(liteparse_output, indent=4))
-        
+
     print("liteparse parser completed")
     return liteparse_output
 
 
-
 async def main():
-    file_path = "test.pdf"
+    file_path = Path(__file__).parent / "data" / "test.pdf"
     # llama_cloud_result = await llama_cloud_parser(file_path)
     # has no formulas
     # docling_result = await docling_parser(file_path)
     liteparse_result = await liteparse_parser(file_path)
     pymupdf4llm_result = await pymupdf4llm_parser(file_path)
+
 
 if __name__ == "__main__":
     asyncio.run(main())
